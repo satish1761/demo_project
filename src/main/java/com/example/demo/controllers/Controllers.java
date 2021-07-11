@@ -8,12 +8,12 @@ import org.springframework.web.servlet.ModelAndView;
 public class Controllers {
 	
 	@RequestMapping("/")
-	ModelAndView home() {
+	ModelAndVie home() {
 		
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("home.jsp");
 		
-		return ;
+		return mv;
 	}
 
 }
