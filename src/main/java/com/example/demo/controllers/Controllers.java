@@ -13,7 +13,7 @@ public class Controllers {
 		ModelAndView mv=new ModelAndView();
 		mv.setViewName("home.jsp");
 		
-		return mv;
+		return ;
 	}
 
 }
